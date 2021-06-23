@@ -1,7 +1,9 @@
 # **ROS Docker Tutorial**
 
 ## 1. Installing Docker
-___
+
+---
+
 ### **1.1 Windows**
 
 ### 1.1.1 WSL 2 backend
@@ -61,6 +63,8 @@ This command downloads a test image and runs it in a container. When the contain
 _OBS: Docker Engine is installed and running. You need to use `sudo` to run Docker commands. Continue to Linux postinstall to allow non-privileged users to run Docker commands and for other optional configuration steps._
 
 ## 2. Pulling ROS image
+
+---
 
 _Content souce: https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/_
 
@@ -143,6 +147,8 @@ $ docker exec -it ros-dev bash
 ```
 
 ## 3. Setting GUI forwarding
+
+---
 
 ### **3.1 Windows**
 
